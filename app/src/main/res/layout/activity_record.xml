@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author: Yexiao Lin, u6257745-->
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Score"
+    android:background="@color/colorCyan">
+
+    <TextView
+        android:id="@+id/TextTimeBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Time Mde"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TimeBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TimeScoreValue"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/TextTimeBestRecord"
+        app:layout_constraintStart_toStartOf="@+id/TextTimeBestRecord"
+        app:layout_constraintTop_toBottomOf="@+id/TextTimeBestRecord" />
+
+    <TextView
+        android:id="@+id/TextStepBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Step Mode"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TimeBestRecord" />
+
+    <TextView
+        android:id="@+id/StepBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="StepScoreValue"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/TextStepBestRecord"
+        app:layout_constraintStart_toStartOf="@+id/TextStepBestRecord"
+        app:layout_constraintTop_toBottomOf="@+id/TextStepBestRecord" />
+
+    <TextView
+        android:id="@+id/TextInfinityBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Infinity Mode"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/StepBestRecord" />
+
+    <TextView
+        android:id="@+id/InfinityBestRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="RecordValue"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="@+id/TextInfinityBestRecord"
+        app:layout_constraintStart_toStartOf="@+id/TextInfinityBestRecord"
+        app:layout_constraintTop_toBottomOf="@+id/TextInfinityBestRecord" />
+</android.support.constraint.ConstraintLayout>

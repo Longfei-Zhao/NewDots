@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author: Longfei Zhao-->
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <com.example.zhaolongfei.newdots.BoardView
+        android:id="@+id/boardview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RemainString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="TIME"
+        android:textSize="22dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/RemainValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/RemainString"
+        app:layout_constraintStart_toStartOf="@+id/RemainString"
+        app:layout_constraintTop_toBottomOf="@+id/RemainString" />
+
+    <TextView
+        android:id="@+id/ScoreString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="SCORE"
+        android:textSize="22dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ScoreValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="@+id/ScoreString"
+        app:layout_constraintStart_toStartOf="@+id/ScoreString"
+        app:layout_constraintTop_toBottomOf="@+id/ScoreString" />
+</android.support.constraint.ConstraintLayout>

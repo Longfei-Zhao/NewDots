@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--author:Yexiao Lin-->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#8D6E63</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorRed">#F44336</color>
+    <color name="colorPurple">#9C27B0</color>
+    <color name="colorIndigo">#3F51B5</color>
+    <color name="colorCyan">#00BCD4</color>
+
+    <color name="colorTeal200">#80CBC4</color>
+    <color name="colorTeal400">#26A69A</color>
+    <color name="colorTeal">#009688</color>
+
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorLightGreen">#8BC34A</color>
+    <color name="colorLime">#CDDC39</color>
+    <color name="colorOrange">#FF9800</color>
+
+    <color name="colorBrown">#795548</color>
+
+    <color name="colorGrey50">#FAFAFA</color>
+    <color name="colorGrey400">#BDBDBD</color>
+    <color name="colorGrey">#9E9E9E</color>
+    <color name="colorGrey600">#757575</color>
+    <color name="colorGrey700">#616161</color>
+    <color name="colorGrey800">#424242</color>
+
+    <color name="colorBlueGrey">#607D8B</color>
+
+
+    <color name="dot1">#3F51B5</color>
+    <color name="dot2">#009688</color>
+    <color name="dot3">#607D8B</color>
+    <color name="dot4">#00BCD4</color>
+    <color name="dot5">#FF9800</color>
+    <color name="dot6">#673AB7</color>
+
+    <array name="colors">
+        <item>@color/dot1</item>
+        <item>@color/colorTeal</item>
+        <item>@color/dot3</item>
+        <item>@color/dot4</item>
+        <item>@color/dot5</item>
+        <item>@color/dot6</item>
+        <item>@color/colorGrey50</item>
+    </array>
+</resources>

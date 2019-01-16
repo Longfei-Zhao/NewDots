@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Button">
+        <item name="android:layout_width">168dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+
+        <item name="android:background">@color/colorGrey600</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24dp</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+
+    </style>
+</resources>
